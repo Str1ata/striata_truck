@@ -761,3 +761,11 @@ table.insert(Config.scriptsConfig, {
         },
 	}
 })
+
+if not IsDuplicityVersion() then
+    RegisterNetEvent("striata:truck:truckSpawned")
+    AddEventHandler("striata:truck:truckSpawned",function(entity,plate,netId,locked)
+        --exports["nation-garages"]:getVehicleData(plate)
+        --exports["nation-garages"]:lockVehicle(netId,locked)
+    end)
+end

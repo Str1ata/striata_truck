@@ -765,6 +765,8 @@ table.insert(Config.scriptsConfig, {
 if not IsDuplicityVersion() then
     RegisterNetEvent("striata:truck:truckSpawned")
     AddEventHandler("striata:truck:truckSpawned",function(entity,plate,netId,locked)
+        --! Coloque aqui eventos ou exports para garagens com função de desligamento de veiculos.
+        -- TriggerServerEvent("registerVehicleInRegister",netId)
         --exports["nation-garages"]:getVehicleData(plate)
         --exports["nation-garages"]:lockVehicle(netId,locked)
     end)

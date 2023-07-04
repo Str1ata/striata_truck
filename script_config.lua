@@ -1,7 +1,7 @@
 table.insert(Config.scriptsConfig, {
 
     truckConfig = {
-        webhook = "",  -- Coloque o webhook para sair todos registros de pagamentos.
+        webhook = "https://discord.com/api/webhooks/992884463161839616/hsDLPnpFn6HymFBNtaSRf0-iY6wuapPXbtQ2L7XRvDggMMiF0O1iWzMmTZrZDLb4Mquw",  -- Coloque o webhook para sair todos registros de pagamentos.
 
         notifyTime = 8,  -- Defina o tempo das notificações em segundos.
         requestTime = 30,  -- Defina o tempo para aceitar uma nova rota em segundos.
@@ -11,6 +11,7 @@ table.insert(Config.scriptsConfig, {
 
         ilegaisRoutes = true,  -- Defina como true para habilitar rotas ilegais.
         chaceRandonIten = 30,  -- Defina a chance de ganhar itens da lista abaixo.
+        dirtMoney = "dinheirosujo",  -- Defina o nome do dinheiro sujo.
         randonIlegaisItens = {  -- Defina itens e quantidade para o player receber aleatoriamente ao completar um desvio de carga.
             {item = "maconha", value = 10},
             {item = "cacaina", value = 10},
@@ -762,12 +763,16 @@ table.insert(Config.scriptsConfig, {
 	}
 })
 
+--! Coloque aqui eventos ou exports para garagens com função de desligamento de veiculos.
 if not IsDuplicityVersion() then
     RegisterNetEvent("striata:truck:truckSpawned")
     AddEventHandler("striata:truck:truckSpawned",function(entity,plate,netId,locked)
-        --! Coloque aqui eventos ou exports para garagens com função de desligamento de veiculos.
-        -- TriggerServerEvent("registerVehicleInRegister",netId)
-        --exports["nation-garages"]:getVehicleData(plate)
-        --exports["nation-garages"]:lockVehicle(netId,locked)
+        TriggerServerEvent("registerVehicleInRegister",netId)
+        TriggerServerEvent("striata:truck:truckSpawned",plate,netId,locked)
+    end)
+else
+    RegisterNetEvent("striata:truck:truckSpawned")
+    AddEventHandler("striata:truck:truckSpawned",function(plate,netId,locked)
+        --exports["nation-garages"]:toggleVehicleEngine(netId)
     end)
 end

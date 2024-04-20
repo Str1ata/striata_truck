@@ -1,0 +1,2926 @@
+{
+    "scriptConfig": {
+        "webhook": "",
+        "notifyTime": 8,
+        "requestTime": 30,
+        "targetMode": true,
+        "commandMode": true,
+        "ilegaisRoutes": true,
+        "chaceRandonIten": 30,
+        "dirtMoney": "dinheirosujo",
+        "randonIlegaisItens": [
+            {
+                "item": "maconha",
+                "value": 10
+            },
+            {
+                "item": "cacaina",
+                "value": 10
+            },
+            {
+                "item": "pecadearma",
+                "value": 2
+            },
+            {
+                "item": "lockpick",
+                "value": 1
+            },
+            {
+                "item": "polvora",
+                "value": 25
+            },
+            {
+                "item": "algema",
+                "value": 1
+            },
+            {
+                "item": "keymaster",
+                "value": 1
+            }
+        ],
+        "policePermission": "policia.permissao",
+        "policeNotificationChance": 15,
+        "playerNotify": "A polícia foi notificada do seu desvio de carga!",
+        "policeSigle": "911",
+        "policeAnnouncement": "Uma empresa acabou de relatar uma carga desviada. o local foi marcado em seu gps!",
+        "comboio": true,
+        "comboioMax": 10,
+        "comboioMultiply": 0.1,
+        "spawnsTruck": true,
+        "changePlate": true,
+        "plateName": "JOB",
+        "checkPlatePermissions": [
+            "policia.permissao",
+            "desmanche.permissao",
+            "mod.permissao"
+        ],
+        "lockspawn": true,
+        "bonusLocation": 3500,
+        "truckPointdistance": 5,
+        "trailerPointdistance": 8,
+        "truckPointAngle": 10,
+        "trailerPointAngle": 10,
+        "peds": true,
+        "configPeds": [
+            {
+                "type": "legal",
+                "location": "south01",
+                "coords": [ 1209.31,-3117.87,5.55,87.51],
+                "hash": "0xF1E823A2",
+                "hash2": "g_m_m_armboss_01"
+            },
+            {
+                "type": "ilegal",
+                "location": "south01",
+                "coords": [ 1294.59,-3208.71,5.91,3.19],
+                "hash": "0xFDA94268",
+                "hash2": "g_m_m_armgoon_01"
+            },
+            {
+                "type": "legal",
+                "location": "north01",
+                "coords": [ 1956.09,4652.9,40.77,170.22],
+                "hash": "0xF1E823A2",
+                "hash2": "g_m_m_armboss_01"
+            },
+            {
+                "type": "ilegal",
+                "location": "north01",
+                "coords": [ 1962.95,4620.16,40.85,129.63],
+                "hash": "0xFDA94268",
+                "hash2": "g_m_m_armgoon_01"
+            }
+        ],
+        "blipsMap": true,
+        "configBlips": [
+            {
+                "coords": [1209.31,-3117.87,5.55],
+                "type": 477,
+                "color": 0,
+                "text": "Central dos caminhoneiros",
+                "scale": 0.6
+            },
+            {
+                "coords": [1956.09,4652.9,40.77],
+                "type": 477,
+                "color": 0,
+                "text": "Central dos caminhoneiros",
+                "scale": 0.6
+            }
+        ],
+        "disponibleTrucks": [
+            "hauler",
+            "packer",
+            "phantom",
+            "rubble",
+            "tiptruck",
+            "tiptruck2",
+            "mixer",
+            "mixer2"
+        ],
+        "disponibleTrailers": [
+            "trailers",
+            "trailers2",
+            "trailers3",
+            "trailers4",
+            "tanker2",
+            "tr2",
+            "docktrailer",
+            "trailerlogs",
+            "armytanker"
+        ],
+        "trucksTrailers": [
+            "hauler",
+            "packer",
+            "phantom"
+        ],
+        "configTrucks": [
+            {
+                "location": "south01",
+                "trucks": [
+                    "hauler",
+                    "packer",
+                    "phantom",
+                    "rubble",
+                    "tiptruck2",
+                    "mixer2"
+                ],
+                "trailers": [
+                    "trailers",
+                    "trailers2",
+                    "trailers3",
+                    "trailers4",
+                    "tanker2",
+                    "tr2",
+                    "docktrailer"
+                ],
+                "trucksSpwns": [
+                    [
+                        1245.01,
+                        -3155.52,
+                        5.74,
+                        269.92
+                    ],
+                    [
+                        1244.67,
+                        -3148.86,
+                        5.73,
+                        269.92
+                    ],
+                    [
+                        1244.65,
+                        -3142.29,
+                        5.73,
+                        269.92
+                    ],
+                    [
+                        1244.94,
+                        -3136.0,
+                        5.74,
+                        269.92
+                    ]
+                ],
+                "trailersSpwns": [
+                    [
+                        1275.17,
+                        -3184.11,
+                        6.14,
+                        91.45
+                    ],
+                    [
+                        1274.93,
+                        -3190.75,
+                        6.14,
+                        91.45
+                    ],
+                    [
+                        1275.57,
+                        -3195.63,
+                        6.14,
+                        91.45
+                    ],
+                    [
+                        1276.53,
+                        -3202.33,
+                        6.14,
+                        91.45
+                    ],
+                    [
+                        1275.14,
+                        -3209.7,
+                        6.13,
+                        91.45
+                    ],
+                    [
+                        1275.78,
+                        -3216.7,
+                        6.17,
+                        91.45
+                    ],
+                    [
+                        1275.25,
+                        -3223.14,
+                        6.13,
+                        91.45
+                    ],
+                    [
+                        1276.61,
+                        -3230.2,
+                        6.14,
+                        91.45
+                    ],
+                    [
+                        1276.66,
+                        -3237.82,
+                        6.14,
+                        91.45
+                    ]
+                ]
+            },
+            {
+                "location": "north01",
+                "trucks": [
+                    "hauler",
+                    "packer",
+                    "phantom",
+                    "rubble",
+                    "tiptruck",
+                    "mixer"
+                ],
+                "trailers": [
+                    "trailers",
+                    "trailers2",
+                    "trailers3",
+                    "trailers4",
+                    "tanker2",
+                    "trailerlogs",
+                    "armytanker"
+                ],
+                "trucksSpwns": [
+                    [
+                        1940.2,
+                        4616.66,
+                        40.27,
+                        333.35
+                    ],
+                    [
+                        1950.76,
+                        4617.47,
+                        40.56,
+                        32.49
+                    ],
+                    [
+                        1938.71,
+                        4629.92,
+                        40.55,
+                        359.68
+                    ]
+                ],
+                "trailersSpwns": [
+                    [
+                        1880.93,
+                        4640.84,
+                        37.41,
+                        281.81
+                    ],
+                    [
+                        1880.59,
+                        4636.79,
+                        37.35,
+                        281.81
+                    ],
+                    [
+                        1880.51,
+                        4632.7,
+                        37.4,
+                        281.81
+                    ],
+                    [
+                        1881.54,
+                        4628.5,
+                        37.59,
+                        281.81
+                    ],
+                    [
+                        1884.22,
+                        4620.47,
+                        38.19,
+                        281.81
+                    ],
+                    [
+                        1898.01,
+                        4614.61,
+                        38.55,
+                        0.16
+                    ],
+                    [
+                        1893.7,
+                        4613.14,
+                        38.29,
+                        0.16
+                    ]
+                ]
+            }
+        ],
+        "configCargoRefuel": {
+            "trailer": {
+                "trailers": [
+                    {
+                        "location": "south01",
+                        "coords": [461.07,-3031.54,6.29,180.81]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [930.15,-2915.13,6.13,90.19]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-127.58,-2388.15,6.23,89.46]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-392.47,-2270.72,7.84,86.03]
+                    }
+                ],
+                "tanker2": [
+                    {
+                        "location": "south01",
+                        "coords": [294.69,-2811.2,6.22,359.79]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [772.52,-2390.14,21.91,358.45]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1674.3,-1614.75,112.7,336.93]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [523.48,-2159.48,6.22,355.29]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [644.45,2929.39,42.2,115.30]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [601.88,2853.95,40.21,180.92]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [491.03,2966.15,42.41,131.30]
+                    }
+                ],
+                "tr2": [
+                    {
+                        "location": "south01",
+                        "coords": [461.07,-3031.54,6.29,180.81]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [930.15,-2915.13,6.13,90.19]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-127.58,-2388.15,6.23,89.46]
+                    }
+                ],
+                "docktrailer": [
+                    {
+                        "location": "south01",
+                        "coords": [461.07,-3031.54,6.29,180.81]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [930.15,-2915.13,6.13,90.19]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-127.58,-2388.15,6.23,89.46]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-392.47,-2270.72,7.84,86.03]
+                    }
+                ],
+                "trailers2": [
+                    {
+                        "location": "south01",
+                        "coords": [461.07,-3031.54,6.29,180.81]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [930.15,-2915.13,6.13,90.19]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-127.58,-2388.15,6.23,89.46]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-392.47,-2270.72,7.84,86.03]
+                    }
+                ],
+                "trailers3": [
+                    {
+                        "location": "south01",
+                        "coords": [461.07,-3031.54,6.29,180.81]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [930.15,-2915.13,6.13,90.19]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-127.58,-2388.15,6.23,89.46]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-392.47,-2270.72,7.84,86.03]
+                    }
+                ],
+                "trailers4": [
+                    {
+                        "location": "south01",
+                        "coords": [461.07,-3031.54,6.29,180.81]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [930.15,-2915.13,6.13,90.19]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-127.58,-2388.15,6.23,89.46]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-392.47,-2270.72,7.84,86.03]
+                    }
+                ],
+                "trailerlogs": [
+                    {
+                        "location": "north01",
+                        "coords": [193.09,4424.7,73.82,315.23]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [347.99,4453.94,63.04,190.75]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1996.36,5187.93,49.34,291.27]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2277.05,5168.09,59.68,252.95]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2218.3,5560.9,54.07,275.85]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1523.97,6332.69,24.38,251.81]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1428.48,6347.84,24.19,97.19]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [274.79,6774.66,15.93,90.97]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-718.51,5623.66,29.19,11.37]
+                    }
+                ],
+                "armytanker": [
+                    {
+                        "location": "south01",
+                        "coords": [294.69,-2811.2,6.22,359.79]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [772.52,-2390.14,21.91,358.45]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1674.3,-1614.75,112.7,336.93]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [523.48,-2159.48,6.22,355.29]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [644.45,2929.39,42.2,115.30]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [601.88,2853.95,40.21,180.92]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [491.03,2966.15,42.41,131.30]
+                    }
+                ]
+            },
+            "noTrailer": {
+                "rubble": [
+                    {
+                        "location": "south01",
+                        "coords": [-121.9,-1031.68,27.38,157.52]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-466.82,-979.15,23.64,38.53]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-654.16,229.98,80.21,180.134]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [116.31,-370.72,42.59,157.44]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1131.65,2182.95,48.93,1.72]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1059.81,2280.41,49.66,270.22]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [954.3,2417.77,51.4,87.45]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [77.67,6494.47,31.48,293.90]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [52.7,6513.76,31.57,177.41]
+                    }
+                ],
+                "tiptruck": [
+                    {
+                        "location": "south01",
+                        "coords": [-175.38,-1027.97,26.91,165.84]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [127.36,-396.55,40.96,64.69]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-442.7,-1068.85,23.5,297.67]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [540.59,-2396.49,5.45,91.10]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [377.32,2925.18,41.64,287.59]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1069.31,2118.6,52.54,248.06]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2741.47,2880.96,36.63,280.59]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [122.1,6530.71,31.01,338.15]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-161.2,6272.83,31.15,45.27]
+                    }
+                ],
+                "tiptruck2": [
+                    {
+                        "location": "south01",
+                        "coords": [-175.38,-1027.97,26.91,165.84]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [127.36,-396.55,40.96,64.69]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-442.7,-1068.85,23.5,297.67]
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [540.59,-2396.49,5.45,91.10]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [377.32,2925.18,41.64,287.59]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1069.31,2118.6,52.54,248.06]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2741.47,2880.96,36.63,280.59]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [122.1,6530.71,31.01,338.15]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-161.2,6272.83,31.15,45.27]
+                    }
+                ],
+                "mixer": [
+                    {
+                        "location": "south01",
+                        "coords": [629.77,-2774.84,6.29,33.86]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [361.91,3409.69,36.03,22.15]
+                    }
+                ],
+                "mixer2": [
+                    {
+                        "location": "south01",
+                        "coords": [629.77,-2774.84,6.29,33.86]
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [361.91,3409.69,36.03,22.15]
+                    }
+                ]
+            }
+        },
+        "configCargoDefuel": {
+            "trailer": {
+                "trailers": [
+                    {
+                        "location": "south01",
+                        "coords": [772.06,-2535.52,20.22,176.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1090.43,-2317.79,30.22,174.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1433.22,-2053.59,55.14,291.96],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-489.28,-1066.82,23.63,236.75],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1359.68,-761.74,67.59,345.25],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-1235.03,-2091.43,14.0,156.63],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-859.37,-3004.79,14.04,150.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-648.21,-1747.46,24.56,128.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [865.27,-1246.81,26.58,37.22],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [887.02,-1162.54,24.99,269.98],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2672.65,1428.29,24.57,358.68],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2716.82,2773.46,36.48,302.42],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [878.06,2349.12,51.76,267.19],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [181.41,2741.23,43.49,280.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [291.93,2831.57,43.51,298.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1660.35,3113.1,31.79,178.74],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1740.3,3681.26,34.5,200.53],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1443.97,3611.52,34.91,201.94],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [65.5,6501.52,31.63,312.87],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [202.67,6393.64,31.46,26.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1937.41,2822.13,32.85,329.89],
+                        "price": 3500
+                    }
+                ],
+                "tanker2": [
+                    {
+                        "location": "south01",
+                        "coords": [276.61,-1256.06,29.23,3500],
+                        "price": 3500
+                    },
+                    {
+                       "location": "south01",
+                        "coords": [166.0,-1561.97,29.31,134.06],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [824.53,-1018.8,26.31,2.38],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-1439.02,-272.08,46.27,40.56],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-78.89,-1749.83,29.53,340.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1172.13,-328.81,69.16,100.55],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-1795.51,816.35,138.61,42.86],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-520.54,-1214.89,18.28,244.21],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-2107.49,-312.93,13.09,353.75],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1207.54,-1412.68,35.22,135.25],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [2585.57,370.07,108.52,359.19],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-727.19,-927.1,19.08,0.11],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-305.02,-1473.92,30.6,210.09],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [609.97,277.11,103.12,358.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1046.74,2677.3,39.48,269.05],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2673.92,3259.02,55.3,150.19],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1695.39,6422.05,32.69,64.67],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1784.79,3337.06,41.08,29.47],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1210.67,2653.67,37.89,225.63],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [253.66,2599.49,44.96,280.32],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1687.68,4940.08,42.29,324.26],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [202.62,6621.62,31.67,4.65],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2563.77,2336.83,33.12,97.48],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-86.34,6423.53,31.55,314.81],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1996.45,3772.49,32.25,120.17],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [36.73,2790.24,57.94,144.02],
+                        "price": 3500
+                    }
+                ],
+                "tr4": [
+                    {
+                        "location": "south01",
+                        "coords": [-49.75,-1074.31,26.99,68.73],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-790.08,-179.77,37.35,30.23],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-231.16,-1181.43,23.08,268.38],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-502.01,-2186.17,7.15,320.98],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [982.77,-64.22,75.02,117.69],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1212.78,2704.11,38.07,180.29],
+                        "price": 3500
+                    }
+                ],
+                "docktrailer": [
+                    {
+                        "location": "south01",
+                        "coords": [772.06,-2535.52,20.22,176.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1090.43,-2317.79,30.22,174.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1433.22,-2053.59,55.14,291.96],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-489.28,-1066.82,23.63,236.75],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1359.68,-761.74,67.59,345.25],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-1235.03,-2091.43,14.0,156.63],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-859.37,-3004.79,14.04,150.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-648.21,-1747.46,24.56,128.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [865.27,-1246.81,26.58,37.22],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [887.02,-1162.54,24.99,269.98],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2672.65,1428.29,24.57,358.68],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2716.82,2773.46,36.48,302.42],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [878.06,2349.12,51.76,267.19],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [181.41,2741.23,43.49,280.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [291.93,2831.57,43.51,298.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1660.35,3113.1,31.79,178.74],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1740.3,3681.26,34.5,200.53],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1443.97,3611.52,34.91,201.94],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [65.5,6501.52,31.63,312.87],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [202.67,6393.64,31.46,26.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1937.41,2822.13,32.85,329.89],
+                        "price": 3500
+                    }
+                ],
+                "trailers2": [
+                    {
+                        "location": "south01",
+                        "coords": [772.06,-2535.52,20.22,176.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1090.43,-2317.79,30.22,174.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1433.22,-2053.59,55.14,291.96],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-489.28,-1066.82,23.63,236.75],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1359.68,-761.74,67.59,345.25],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-1235.03,-2091.43,14.0,156.63],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-859.37,-3004.79,14.04,150.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-648.21,-1747.46,24.56,128.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [865.27,-1246.81,26.58,37.22],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [887.02,-1162.54,24.99,269.98],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2672.65,1428.29,24.57,358.68],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2716.82,2773.46,36.48,302.42],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [878.06,2349.12,51.76,267.19],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [181.41,2741.23,43.49,280.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [291.93,2831.57,43.51,298.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1660.35,3113.1,31.79,178.74],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1740.3,3681.26,34.5,200.53],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1443.97,3611.52,34.91,201.94],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [65.5,6501.52,31.63,312.87],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [202.67,6393.64,31.46,26.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1937.41,2822.13,32.85,329.89],
+                        "price": 3500
+                    }
+                ],
+                "trailers3": [
+                    {
+                        "location": "south01",
+                        "coords": [772.06,-2535.52,20.22,176.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1090.43,-2317.79,30.22,174.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1433.22,-2053.59,55.14,291.96],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-489.28,-1066.82,23.63,236.75],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1359.68,-761.74,67.59,345.25],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-1235.03,-2091.43,14.0,156.63],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-859.37,-3004.79,14.04,150.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-648.21,-1747.46,24.56,128.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [865.27,-1246.81,26.58,37.22],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [887.02,-1162.54,24.99,269.98],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2672.65,1428.29,24.57,358.68],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2716.82,2773.46,36.48,302.42],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [878.06,2349.12,51.76,267.19],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [181.41,2741.23,43.49,280.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [291.93,2831.57,43.51,298.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1660.35,3113.1,31.79,178.74],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1740.3,3681.26,34.5,200.53],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1443.97,3611.52,34.91,201.94],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [65.5,6501.52,31.63,312.87],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [202.67,6393.64,31.46,26.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1937.41,2822.13,32.85,329.89],
+                        "price": 3500
+                    }
+                ],
+                "trailers4": [
+                    {
+                        "location": "south01",
+                        "coords": [772.06,-2535.52,20.22,176.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1090.43,-2317.79,30.22,174.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1433.22,-2053.59,55.14,291.96],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-489.28,-1066.82,23.63,236.75],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1359.68,-761.74,67.59,345.25],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-1235.03,-2091.43,14.0,156.63],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-859.37,-3004.79,14.04,150.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-648.21,-1747.46,24.56,128.54],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [865.27,-1246.81,26.58,37.22],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [887.02,-1162.54,24.99,269.98],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2672.65,1428.29,24.57,358.68],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2716.82,2773.46,36.48,302.42],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [878.06,2349.12,51.76,267.19],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [181.41,2741.23,43.49,280.04],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [291.93,2831.57,43.51,298.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1660.35,3113.1,31.79,178.74],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1740.3,3681.26,34.5,200.53],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1443.97,3611.52,34.91,201.94],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [65.5,6501.52,31.63,312.87],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [202.67,6393.64,31.46,26.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1937.41,2822.13,32.85,329.89],
+                        "price": 3500
+                    }
+                ],
+                "trailerlogs": [
+                    {
+                        "location": "north01",
+                        "coords": [-559.21,5364.2,70.43,153.73],
+                        "price": 3500
+                    }
+                ],
+                "armytanker": [
+                    {
+                        "location": "north01",
+                        "coords": [-1750.29,3114.71,32.88,149.60],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2411.14,3312.48,32.89,241.90],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2374.59,3335.57,32.89,240.21],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2448.71,2968.02,32.88,285.15],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1704.16,2956.52,32.87,329.60],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-1666.12,3116.96,31.78,359.05],
+                        "price": 3500
+                    }
+                ]
+            },
+            "noTrailer": {
+                "rubble": [
+                    {
+                        "location": "south01",
+                        "coords": [610.66,-2852.11,3.12,233.89],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1768.79,3969.99,31.82,179.79],
+                        "price": 3500
+                    }
+                ],
+                "tiptruck": [
+                    {
+                        "location": "south01",
+                        "coords": [619.45,-2842.77,2.68,167.80],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1748.2,3947.82,33.58,97.93],
+                        "price": 3500
+                    }
+                ],
+                "tiptruck2": [
+                    {
+                        "location": "south01",
+                        "coords": [619.45,-2842.77,2.68,167.80],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1748.2,3947.82,33.58,97.93],
+                        "price": 3500
+                    }
+                ],
+                "mixer": [
+                    {
+                        "location": "south01",
+                        "coords": [-95.91,-992.22,20.9,341.29],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [61.61,-421.89,39.54,339.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-461.48,-1007.61,23.39,358.09],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [491.46,-2299.16,3.79,287.39],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1371.74,-701.97,66.06,350.78],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1401.54,-710.4,66.38,301.38],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1089.36,2081.49,53.14,274.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1150.61,2128.19,55.13,178.97],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1021.19,2319.31,44.2,359.34],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [66.47,6535.87,31.22,313.98],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-276.42,4754.63,138.01,49.72],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-401.89,4850.98,144.22,230.54],
+                        "price": 3500
+                    }
+                ],
+                "mixer2": [
+                    {
+                        "location": "south01",
+                        "coords": [-95.91,-992.22,20.9,341.29],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [61.61,-421.89,39.54,339.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [-461.48,-1007.61,23.39,358.09],
+                        "price": 3500
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [491.46,-2299.16,3.79,287.39],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1089.36,2081.49,53.14,274.52],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1150.61,2128.19,55.13,178.97],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1021.19,2319.31,44.2,359.34],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [66.47,6535.87,31.22,313.98],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-276.42,4754.63,138.01,49.72],
+                        "price": 3500
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-401.89,4850.98,144.22,230.54],
+                        "price": 3500
+                    }
+                ]
+            }
+        },
+        "configIlegalCargoDefuel": {
+            "trailer": {
+                "trailers": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "tanker2": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "tr4": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "docktrailer": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "trailers2": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "trailers3": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "trailers4": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "trailerlogs": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "armytanker": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ]
+            },
+            "noTrailer": {
+                "rubble": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "tiptruck": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "tiptruck2": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "mixer": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ],
+                "mixer2": [
+                    {
+                        "location": "south01",
+                        "coords": [-3154.69,1376.84,17.24,272.04],
+                        "price": 4000
+                    },
+                    {
+                        "location": "south01",
+                        "coords": [1874.65,283.99,164.36,147.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [41.17,2927.9,55.8,205.66],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [494.01,3016.26,41.06,327.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [849.54,3024.68,41.39,355.01],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2107.15,3324.63,45.45,121.63],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2488.65,3164.5,49.19,14.48],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1798.43,4705.23,40.09,95.20],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-753.3,5944.73,19.89,289.62],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-389.17,4338.64,56.14,186.67],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-3028.81,3334.99,10.24,282.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1573.04,2223.41,78.48,185.87],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2072.43,1747.69,104.57,135.09],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-2231.3,2418.16,12.24,186.31],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [-7.0,3326.59,41.69,347.24],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1288.36,2847.39,49.45,309.89],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [2769.61,3920.52,45.88,133.91],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [3405.73,5505.48,26.34,77.45],
+                        "price": 4000
+                    },
+                    {
+                        "location": "north01",
+                        "coords": [1.96,6832.16,15.87,248.93],
+                        "price": 4000
+                    }
+                ]
+            }
+        }
+    }
+}

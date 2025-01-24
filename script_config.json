@@ -1,6 +1,6 @@
 {
     "scriptConfig": {
-        "webhook": "",
+        "webhook": "https://discord.com/api/webhooks/992884463161839616/hsDLPnpFn6HymFBNtaSRf0-iY6wuapPXbtQ2L7XRvDggMMiF0O1iWzMmTZrZDLb4Mquw",
         "notifyTime": 8,
         "requestTime": 30,
         "targetMode": true,
